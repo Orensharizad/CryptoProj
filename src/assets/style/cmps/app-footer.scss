@@ -1,8 +1,10 @@
 footer {
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 5vh;
-    
+    color: #20509e;
+
     padding-inline: 10px;
-    background-color: lightblue;
+    // background-color: $clr1;
 }

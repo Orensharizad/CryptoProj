@@ -1,0 +1,23 @@
+button {
+    border: 0;
+    background-color: $clr1;
+    color: whitesmoke;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+.btn {
+    padding: 6px 8px;
+    font-size: 16px;
+    border-radius: 50px;
+    min-width: 130px;
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(to right, #3e2bce 0%, #2dd3aa 100%, #2dd3aa 100%, #2dd3aa 100%);
+
+    &:hover {
+        opacity: .8;
+    }
+}

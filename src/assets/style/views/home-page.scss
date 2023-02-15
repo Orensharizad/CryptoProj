@@ -1,0 +1,43 @@
+.home-page {
+    height: 90vh;
+    max-width: 1200px;
+    // padding: 0 2em;
+    margin: 0 auto;
+    display: flex;
+    color: #fff;
+    padding-top: 150px;
+
+
+
+
+
+
+    .content-title {
+        font-size: 70px;
+        margin-bottom: 40px;
+
+        span {
+            color: #7ad4cc;
+        }
+    }
+
+    .content-subtitle {
+        color: #75849a;
+        margin-bottom: 40px;
+
+    }
+
+    .btn-content {
+        padding: 15px 30px;
+        font-size: 16px;
+        border-radius: 50px;
+        min-width: 170px;
+        cursor: pointer;
+        color: #fff;
+        background: linear-gradient(to right, #3e2bce 0%, #2dd3aa 100%, #2dd3aa 100%, #2dd3aa 100%);
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}

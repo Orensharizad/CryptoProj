@@ -1,0 +1,11 @@
+.dashboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+
+    canvas {
+        width: 500px;
+        height: 500px;
+    }
+}
